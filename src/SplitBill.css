@@ -1,0 +1,48 @@
+.split-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.split-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.split-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.split-input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.split-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #97296d;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.split-button:hover {
+  background-color: #b5649d;
+}
+
+.split-result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
